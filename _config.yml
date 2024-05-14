@@ -85,7 +85,7 @@ content:
         description: <b>Undergraduate Research Assistant</b> at [DEMRC](https://mems.dgist.ac.kr/) advised by Professor Hongsoo Choi
 
   - title: Publications # Title for the section
-    sub_title: Journal
+    sub_title: Journal Articles
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
