@@ -7,9 +7,9 @@ version: 2
 
 # Personal info
 name: Sion An
-title: AI Researcher
+title: Ph.D. Candidate
 email: sion_an@dgist.ac.kr
-website: www.github.com/SionAn/SionAn.github.io
+website: SionAn.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -28,6 +28,7 @@ github_username:  SionAn
 #youtube_username: globalmtb
 # googleplus_username: +jekyll
 orcid_username: 0000-0000-0000-0000
+google_username: https://scholar.google.com/citations?user=fr1Fb5UAAAAJ&hl=ko
 
 # Additional icon links
 additional_links:
