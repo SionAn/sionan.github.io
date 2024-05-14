@@ -140,6 +140,34 @@ content:
           "[Low-dose CT denoising using octave convolution with high and low frequency bands](https://link.springer.com/chapter/10.1007/978-3-030-59354-4_7)"
           MICCAI PRIME (International Workshop on PRedictive Intelligence In MEdicine).
 
+      - layout: top-middle
+        sub_title: Domestic Conference Papers
+      - layout: left
+        sub_title: 2023
+        description: Lee. D, <b>An, S.</b>, & Park, S. H.
+          "Anomaly Detection on Abdominal CT and Brain MRI based on Densitiy-Estimation"
+          Workshop on Image Processing and Image Understanding (IPIU).
+      - layout: left
+        sub_title: 2022
+        description: <b>An, S.</b>, Kim. S., Chikontwe. P., Park. H., Abdul. T., & Park, S. H.
+          "Dual Attention Relation Network for Few Shot EEG Motor Imagery Classification"
+          Summer Annual Conference of IEIE.
+      - layout: left
+        sub_title: 2021
+        description: Kim. S., <b>An, S.</b>, Chikontwe. P., & Park, S. H.
+          "Few Shot Learning based on Bidirectional Recurrent Neural Network for 3D Medical Image Segmentation"
+          Workshop on Image Processing and Image Understanding (IPIU).
+      - layout: left
+        sub_title: 2020
+        description: <b>An, S.</b>, Kim. S., & Park, S. H.
+          "Neural Spike Detection using Deep Convolutional Neural Network"
+          Workshop on Image Processing and Image Understanding (IPIU).
+      - layout: left
+        sub_title: 2017
+        description: Lee. H., <b>An, S.</b>, Jeon. S., Kim. K., Lee. S., Lee. S., Kim. J. Y., & Choi. H.
+          "Development of Helical Drilling Microrobot Based on Catheter and Guidewire for Chronic Total Occlusion Treatment"
+          The Korean Society of Mechanical Engineers Annual Meeting.
+
   - title: Review Services
     layout: text
     content: |
