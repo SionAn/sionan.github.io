@@ -142,7 +142,7 @@ content:
 
   - title: Review Services
     layout: text
-    content:
+    content: |
       - IEEE Transactions on Industrial Informatics (TII)
       - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
       - IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE)
@@ -151,7 +151,7 @@ content:
 
   - title: Awards
     layout: text
-    content:
+    content: |
       - DGIST Outstanding Researcher Award
       - DGIST Post-Graduate Research Abroad Awards
       - Industry-Academia Scholarship from the CTO team at LG Electronics
