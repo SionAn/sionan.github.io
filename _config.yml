@@ -85,7 +85,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Journal Articles
+        sub_title: Journal Articles
       - layout: left
         sub_title: 2023
         description: <b>An, S.</b>, Kim, S., Chikontwe, P., & Park, S. H. 
@@ -103,7 +103,7 @@ content:
                     "IEEE Transactions on Haptics (THaptics)."
 
       - layout: top-middle
-        title: International Conference Papers
+        sub_title: International Conference Papers
       - layout: left
         sub_title: 2024
         description: <b>An, S.</b>, Kang, M., Kim, S., Chikontwe, P., Shen. L., & Park, S. H. 
