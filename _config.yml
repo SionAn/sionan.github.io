@@ -109,6 +109,12 @@ content:
         description: <b>An, S.</b>, Kang, M., Kim, S., Chikontwe, P., Shen. L., & Park, S. H. \
                     "Subject-Adaptive Transfer Learning Using Resting State EEG Signals for Cross-Subject EEG Motor Imagery Classification" \
                     International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI) (Early Accept<Top11\%)
+      - layout: left
+        sub_title: 2024
+        description: <b>An, S.</b>, Shen. L., & Park, S. H. \
+          "Motor Imagery EEG Signal Generation from Resting-State Signal" \
+          Annual International Conference of the IEEE Engineering in Medicine & Biology Society Research Poster (EMBC Research Poster)
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
