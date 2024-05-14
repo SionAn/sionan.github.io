@@ -35,7 +35,7 @@ additional_links:
     icon: fab fa-github
     url: github.com/sproogen/modern-resume-theme
   - title: Google_Scholar
-    icon: fab fa-google-scholar
+    icon: fab fa-github
     url: https://scholar.google.com/citations?user=fr1Fb5UAAAAJ&hl=ko
 
 # - title: another link
