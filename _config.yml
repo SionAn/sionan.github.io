@@ -88,19 +88,27 @@ content:
         title: Journal Articles
       - layout: left
         sub_title: 2023
-        description: <b>An, S.</b>, Kim, S., Chikontwe, P., & Park, S. H. "[Dual Attention Relation Network with Fine-Tuning for Few Shot EEG Motor Imagery Classification](https://ieeexplore.ieee.org/document/10167679)." IEEE Transactions on Neural Networks and Learning Systems (TNNLS).
+        description: <b>An, S.</b>, Kim, S., Chikontwe, P., & Park, S. H. \
+                    "[Dual Attention Relation Network with Fine-Tuning for Few Shot EEG Motor Imagery Classification](https://ieeexplore.ieee.org/document/10167679)." \
+                    IEEE Transactions on Neural Networks and Learning Systems (TNNLS).
       - layout: left
         sub_title: 2023
-        description: Kim, S., Chikontwe, P., <b>An, S.</b>, & Park, S. H. "[Uncertainty-aware semi-supervised few shot segmentation](https://www.sciencedirect.com/science/article/pii/S0031320322007713)." Pattern Recognition (PR).
+        description: Kim, S., Chikontwe, P., <b>An, S.</b>, & Park, S. H. \
+                    "[Uncertainty-aware semi-supervised few shot segmentation](https://www.sciencedirect.com/science/article/pii/S0031320322007713)." \
+                    Pattern Recognition (PR).
       - layout: left
         sub_title: 2022
-        description: Cha, H., <b>An, S.</b>, Choi, S., Yang, S., Park, S. H., Park, S. "[Study on Intention Recognition and Sensory Feedback":" Control of Robotic Prosthetic Hand Through EMG Classification and Proprioceptive Feedback Using Rule-based Haptic Device](https://www.sciencedirect.com/science/article/pii/S0031320322007713)." IEEE Transactions on Haptics (THaptics).
+        description: Cha, H., <b>An, S.</b>, Choi, S., Yang, S., Park, S. H., Park, S. \
+                    "[Study on Intention Recognition and Sensory Feedback":" Control of Robotic Prosthetic Hand Through EMG Classification and Proprioceptive Feedback Using Rule-based Haptic Device](https://www.sciencedirect.com/science/article/pii/S0031320322007713)." \
+                    IEEE Transactions on Haptics (THaptics).
 
       - layout: top-middle
         title: International Conference Papers
       - layout: left
         sub_title: 2024
-        description: <b>An, S.</b>, Kang, M., Kim, S., Chikontwe, P., Shen. L., & Park, S. H. "Subject-Adaptive Transfer Learning Using Resting State EEG Signals for Cross-Subject EEG Motor Imagery Classification" International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI) (Early Accept<Top11\%)
+        description: <b>An, S.</b>, Kang, M., Kim, S., Chikontwe, P., Shen. L., & Park, S. H. \
+                    "Subject-Adaptive Transfer Learning Using Resting State EEG Signals for Cross-Subject EEG Motor Imagery Classification" \
+                    International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI) (Early Accept<Top11\%)
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
