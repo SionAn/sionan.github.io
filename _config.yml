@@ -98,7 +98,8 @@ content:
 
       - layout: top-middle
         title: International Conference Papers
-      - layout: 2024
+      - layout: left
+        sub_title: 2024
         description: <b>An, S.</b>, Kang, M., Kim, S., Chikontwe, P., Shen. L., & Park, S. H. "ubject-Adaptive Transfer Learning Using Resting State EEG Signals for Cross-Subject EEG Motor Imagery Classification" International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI) (Early Accept<Top11\%)
   - title: A Little More About Me
     layout: text
