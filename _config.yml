@@ -48,9 +48,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/SionAn.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name is Sion An and I'm a Ph.D. Candidate in [MISPL](https://sites.google.com/view/mispl/home) at Daegu Gyeongbuk Institute of Science and Technology (DGIST) advised by [Professor Sang Hyun Park](https://sites.google.com/view/mispl/members/professor).
+  I obtaind my B.S. from DGIST in February 2020. My research statement is as follows:
+  Few-shot learning is a subset of deep learning algorithms and necessitates only a small set of labeled data. This facilitates the application of AI across diverse fields with limited labeled datasets. A topic of interest is few-shot learning for the development of tailored AI solutions e.g., personalized/targeted tasks.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Keywords: <mark>Few-shot Learning</mark>, <mark>Medical Image and Signal Processing</mark> and <mark>Brain-Computer Interfaces</mark>
 
 content:
   - title: Projects # Title for the section
