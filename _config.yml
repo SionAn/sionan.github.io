@@ -142,12 +142,21 @@ content:
 
   - title: Review Services
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content:
       - IEEE Transactions on Industrial Informatics (TII)
       - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
       - IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE)
       - Cognitive Neurodynamics
       - International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)
+
+  - title: Awards
+    layout: text
+    content:
+      - DGIST Outstanding Researcher Award
+      - DGIST Post-Graduate Research Abroad Awards
+      - Industry-Academia Scholarship from the CTO team at LG Electronics
+      - Ranked 3rd in SNUH Sleep AI Challenge
+      - Paper Awards at ICROS 2021
 
 # Footer
 footer_show_references: true
