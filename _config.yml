@@ -7,7 +7,8 @@ version: 2
 
 # Personal info
 name: Sion An
-title: Ph.D. Candidate, MISPL, Department of Robotics and Mechatronics Engineering, DGIST
+title: Ph.D. Candidate, \
+  MISPL, Department of Robotics and Mechatronics Engineering, DGIST
 email: sion_an@dgist.ac.kr
 #website: SionAn.github.io
 
