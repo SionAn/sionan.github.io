@@ -31,6 +31,9 @@ orcid_username: 0000-0002-3800-7158
 
 # Additional icon links
 additional_links:
+  - title: sproogen/modern-resume-theme
+    icon: fab fa-github
+    url: github.com/sproogen/modern-resume-theme
   - title: Google_Scholar
     icon: fab fa-google-scholar
     url: https://scholar.google.com/citations?user=fr1Fb5UAAAAJ&hl=ko
