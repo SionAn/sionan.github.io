@@ -31,9 +31,10 @@ orcid_username: 0000-0002-3800-7158
 
 # Additional icon links
 additional_links:
-- title: Google Scholar
+- title: Google_Scholar
   icon: fab fa-google-scholar
   url: https://scholar.google.com/citations?user=fr1Fb5UAAAAJ&hl=ko
+
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -63,6 +64,9 @@ content:
       - layout: left
         sub_title: 01.2024 - Present
         description: Visiting Student at [Shen Lab](https://www.med.upenn.edu/shenlab/) advised by [Professor Li Shen](https://www.med.upenn.edu/shenlab/lab-members.html)
+      - layout: left
+        sub_title: 03.2017 - 12.2017
+        description: Undergraduate Group Research Program (UGRP)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
