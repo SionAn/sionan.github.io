@@ -58,12 +58,23 @@ about_content: | # this will include new lines to allow paragraphs
   Keywords: <mark>Few-shot Learning</mark>, <mark>Medical Image and Signal Processing</mark> and <mark>Brain-Computer Interfaces</mark>
 
 content:
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        sub_title: 03.2020 - Present
+        description: <b>Combined Undergraduate-Graduate Program</b>, [Medical Image & Processing Lab (MISPL)](https://sites.google.com/view/mispl/home), Department of Robotics and Mechatronics Engineering, Daegu Gyeongbuk Institute of Science and Technology (DGIST), Daegu, South Korea.
+      - layout: left
+        sub_title: 03.2015 - 02.2020
+        description: <b>Bachelor of Engineering</b>, School of Undergraduate Studies, Daegu Gyeongbuk Institute of Science and Technology (DGIST), Daegu, South Korea.
+
   - title: Research Experiences # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         sub_title: 01.2024 - Present
         description: <b>Visiting Student</b> at [Shen Lab](https://www.med.upenn.edu/shenlab/) advised by [Professor Li Shen](https://www.med.upenn.edu/shenlab/lab-members.html)
+      - layout: left
         sub_title: 03.2017 - 12.2017
         description: Undergraduate Group Research Program (UGRP)
 
