@@ -114,6 +114,11 @@ content:
         description: <b>An, S.</b>, Shen. L., & Park, S. H. \
           "Motor Imagery EEG Signal Generation from Resting-State Signal" \
           Annual International Conference of the IEEE Engineering in Medicine & Biology Society Research Poster (EMBC Research Poster)
+      - layout: left
+        sub_title: 2024
+        description: Kim, S., <b>An, S.</b>, Chikontwe, P., Kang, M., Adeli, E., Phol, K. M., & Park, S. H. \
+          "[Few Shot Part Segmentation Reveals Compositional Logic for Industrial Anomaly Detection](https://arxiv.org/abs/2312.13783)" \
+          AAAI Conference on Artificial Intelligence (AAAI)
 
   - title: A Little More About Me
     layout: text
