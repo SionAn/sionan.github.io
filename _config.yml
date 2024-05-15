@@ -105,6 +105,10 @@ content:
           url: https://ieeexplore.ieee.org/document/10167679
           icon: fas fa-paperclip
           title: Paper Link
+        code_link:
+          url: https://github.com/SionAn/FewShotEEG
+          icon: fab fa-github
+          title: Code Link
         description: <b>An, S.</b>, Kim, S., Chikontwe, P., & Park, S. H. 
                     "Dual Attention Relation Network with Fine-Tuning for Few Shot EEG Motor Imagery Classification." 
                     IEEE Transactions on Neural Networks and Learning Systems (TNNLS).
@@ -182,6 +186,10 @@ content:
           url: https://ieeexplore.ieee.org/abstract/document/9340933
           icon: fas fa-paperclip
           title: Paper Link
+        code_link:
+          url: https://github.com/SionAn/FewShotEEG
+          icon: fab fa-github
+          title: Code Link
         description: <b>An, S.</b>, Kim, S., Chikontwe, P., & Park, S. H.
           "Few-Shot Relation Learning with Attention for EEG-based Motor Imagery Classification"
           IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).

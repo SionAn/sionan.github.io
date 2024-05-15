@@ -10,6 +10,11 @@
               <i class="{{ item.paper_link.icon }}" title="{{ item.paper_link.title | escape }}"></i>
             </a>
           {%- endif -%}
+          {%- if item.code_link -%}
+            <a href="{{ item.code_link.url }}" class="code-link" target="_blank">
+              <i class="{{ item.code_link.icon }}" title="{{ item.code_link.title | escape }}"></i>
+            </a>
+          {%- endif -%}
         </p>
       {%- endif -%}
       {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
