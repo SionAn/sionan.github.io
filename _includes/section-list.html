@@ -42,9 +42,8 @@
       {%- if item.quote -%}
         <p class="quote">{{ item.quote }}</p>
       {%- endif -%}
-      {%- if item.authors -%}
+      {%- if item.description -%}
       {{ item.description | strip | markdownify }}
-      {%- endif -%}
       {%- endif -%}
       {%- if item.papertitle -%}
         {{ item.papertitle }}
