@@ -111,7 +111,7 @@ content:
           icon: fab fa-github
           title: Code Link
         authors: <b>An, S.</b>, Kim, S., Chikontwe, P., & Park, S. H.
-        papertitle: Dual Attention Relation Network with Fine-Tuning for Few Shot EEG Motor Imagery Classification.
+        papertitle: Dual Attention Relation Network with Fine-Tuning for Few Shot EEG Motor Imagery Classification
         publisher: IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 
       - layout: left
@@ -150,7 +150,7 @@ content:
         index: C6
         authors: <b>An, S.</b>, Shen. L., & Park, S. H.
         papertitle: Motor Imagery EEG Signal Generation from Resting-State Signal
-        publisher: Annual International Conference of the IEEE Engineering in Medicine & Biology Society Research Poster (EMBC Research Poster).
+        publisher: Annual International Conference of the IEEE Engineering in Medicine & Biology Society Research Poster (EMBC Research Poster)
 
       - layout: left
         sub_title: 2024
