@@ -6,7 +6,7 @@
         <p>
           <b>
             {%- if item.index -%}
-              [{{ item.index }}]
+              {{ item.index }}.
             {%- endif -%}
             {{ item.index }}{{ item.index != null ? " " : "" }}{{ item.sub_title }}
           </b>
