@@ -46,7 +46,7 @@
       {{ item.description | strip | markdownify }}
       {%- endif -%}
       {%- if item.papertitle -%}
-        {{ item.papertitle | strip | markdownify }}
+        <b>{{ item.papertitle | strip | markdownify }}</b>
       {%- endif -%}
       {%- if item.authors -%}
         {{ item.authors | strip | markdownify }}
