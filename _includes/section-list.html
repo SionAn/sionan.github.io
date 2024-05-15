@@ -4,7 +4,12 @@
       <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
       {%- if item.sub_title -%}
         <p>
-          <b>[{{ item.index }}] {{ item.sub_title }}</b>
+          <b>
+            {%- if item.index -%}
+              [{{ item.index }}]
+            {%- endif -%}
+            {{ item.sub_title }}
+          </b>
           {%- if item.paper_link -%}
             <a href="{{ item.paper_link.url }}" class="paper-link" target="_blank">
               <i class="{{ item.paper_link.icon }}" title="{{ item.paper_link.title | escape }}"></i>
