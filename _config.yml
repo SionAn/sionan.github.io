@@ -101,6 +101,10 @@ content:
         sub_title: Journal Articles
       - layout: left
         sub_title: 2023
+        additional_links:
+          - title: Paper Link
+            icon: fas fa-paperclip
+            url: https://ieeexplore.ieee.org/document/10167679
         description: <b>An, S.</b>, Kim, S., Chikontwe, P., & Park, S. H. 
                     "[Dual Attention Relation Network with Fine-Tuning for Few Shot EEG Motor Imagery Classification](https://ieeexplore.ieee.org/document/10167679)." 
                     IEEE Transactions on Neural Networks and Learning Systems (TNNLS).
