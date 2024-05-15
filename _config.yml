@@ -101,7 +101,6 @@ content:
         sub_title: Journal Articles
       - layout: left
         sub_title: (J3) 2023
-        caption: [Link](https://ieeexplore.ieee.org/document/10167679)
         description: <b>An, S.</b>, Kim, S., Chikontwe, P., & Park, S. H. 
                     "[Dual Attention Relation Network with Fine-Tuning for Few Shot EEG Motor Imagery Classification](https://ieeexplore.ieee.org/document/10167679)." 
                     IEEE Transactions on Neural Networks and Learning Systems (TNNLS).
@@ -201,12 +200,27 @@ content:
       - (2021) Ranked 3rd in SNUH Sleep AI Challenge
       - (2021) Paper Awards at ICROS 2021
 
+## Footer
+#footer_show_references: true
+## references_title: References on request (Override references text)
+#
+## Build settings
+#remote_theme: sproogen/resume-theme
+#
+#sass:
+#  sass_dir: _sass
+#  style: compressed
+#
+#plugins:
+# - jekyll-seo-tag
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -214,3 +228,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
