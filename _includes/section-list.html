@@ -42,7 +42,19 @@
       {%- if item.quote -%}
         <p class="quote">{{ item.quote }}</p>
       {%- endif -%}
+      {%- if item.authors -%}
       {{ item.description | strip | markdownify }}
+      {%- endif -%}
+      {%- endif -%}
+      {%- if item.authors -%}
+        <p><strong>Authors:</strong> {{ item.authors }}</p>
+      {%- endif -%}
+      {%- if item.papertitle -%}
+        <p><strong>Title:</strong> {{ item.papertitle }}</p>
+      {%- endif -%}
+      {%- if item.publisher -%}
+        <p><strong>Publisher:</strong> {{ item.publisher }}</p>
+      {%- endif -%}
     </div>
   </div>
 {% endfor %}

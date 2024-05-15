@@ -113,6 +113,9 @@ content:
         description: <b>An, S.</b>, Kim, S., Chikontwe, P., & Park, S. H. 
                     "Dual Attention Relation Network with Fine-Tuning for Few Shot EEG Motor Imagery Classification." 
                     IEEE Transactions on Neural Networks and Learning Systems (TNNLS).
+        authors: <b>An, S.</b>, Kim, S., Chikontwe, P., & Park, S. H.
+        papertitle: Dual Attention Relation Network with Fine-Tuning for Few Shot EEG Motor Imagery Classification.
+        publisher: IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 
       - layout: left
         sub_title: 2023
