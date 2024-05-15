@@ -2,7 +2,16 @@
   <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
       <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
-      {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+      {%- if item.sub_title -%}
+        <p>
+          <b>{{ item.sub_title }}</b>
+          {%- if item.paper_link -%}
+            <a href="{{ item.paper_link.url }}" class="paper-link">
+              <i class="{{ item.paper_link.icon }}" title="{{ item.paper_link.title | escape }}"></i>
+            </a>
+          {%- endif -%}
+        </p>
+      {%- endif -%}
       {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
 
       {%- if item.link -%}
@@ -11,7 +20,7 @@
         </a>
       {%- endif -%}
 
-      <p class="no-print aditional-links">
+      <p class="no-print additional-links">
         {% for link in item.additional_links %}
           {% include a.html href=link.url class="" %}
             <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
