@@ -1,10 +1,11 @@
+{% assign item_count = include.content | size %}
 {% for item in include.content %}
   <div class="row clearfix layout layout-{{item.layout | default: 'left'}} border-{{item.border | default: 'no'}}">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
       <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
       {%- if item.sub_title -%}
         <p>
-          <b>{{ item.sub_title }}</b>
+          <b>{{ item_count }}. {{ item.sub_title }}</b>
           {%- if item.paper_link -%}
             <a href="{{ item.paper_link.url }}" class="paper-link" target="_blank">
               <i class="{{ item.paper_link.icon }}" title="{{ item.paper_link.title | escape }}"></i>
@@ -40,4 +41,5 @@
       {{ item.description | strip | markdownify }}
     </div>
   </div>
+  {% assign item_count = item_count | minus: 1 %}
 {% endfor %}
