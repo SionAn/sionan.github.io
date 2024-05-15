@@ -116,7 +116,7 @@ content:
 
       - layout: left
         sub_title: 2023
-        index: J3
+        index: J2
         paper_link:
           url: https://www.sciencedirect.com/science/article/pii/S0031320322007713
           icon: fas fa-paperclip
