@@ -85,7 +85,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        sub_title: Articles in Submission/Preparation
+        title: Articles in Submission/Preparation
       - layout: left
         sub_title: Under Review
         authors: Ullah, I., <b>An, S.</b>, Chikontwe, P., Kang, M., Choi, J., & Park, S. H.
@@ -138,7 +138,7 @@ content:
         publisher: IEEE Transactions on Haptics (ToH)
 
       - layout: top-middle
-        sub_title: International Conference Papers
+        title: International Conference Papers
       - layout: left
         sub_title: 2024
         index: C7
@@ -213,7 +213,7 @@ content:
         publisher: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 
       - layout: top-middle
-        sub_title: Domestic Conference Papers
+        title: Domestic Conference Papers
       - layout: left
         sub_title: 2023
         index: D5
