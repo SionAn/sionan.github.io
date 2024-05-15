@@ -106,18 +106,26 @@ content:
           icon: fas fa-paperclip
           title: Paper Link
         description: <b>An, S.</b>, Kim, S., Chikontwe, P., & Park, S. H. 
-                    "[Dual Attention Relation Network with Fine-Tuning for Few Shot EEG Motor Imagery Classification](https://ieeexplore.ieee.org/document/10167679)." 
+                    "Dual Attention Relation Network with Fine-Tuning for Few Shot EEG Motor Imagery Classification." 
                     IEEE Transactions on Neural Networks and Learning Systems (TNNLS).
 
       - layout: left
         sub_title: (J2) 2023
+        paper_link:
+          url: https://www.sciencedirect.com/science/article/pii/S0031320322007713
+          icon: fas fa-paperclip
+          title: Paper Link
         description: Kim, S., Chikontwe, P., <b>An, S.</b>, & Park, S. H. 
-                    "[Uncertainty-aware semi-supervised few shot segmentation](https://www.sciencedirect.com/science/article/pii/S0031320322007713)." 
+                    "Uncertainty-aware semi-supervised few shot segmentation." 
                     Pattern Recognition (PR).
       - layout: left
         sub_title: (J1) 2022
+        paper_link:
+          url: https://ieeexplore.ieee.org/document/9783070
+          icon: fas fa-paperclip
+          title: Paper Link
         description: Cha, H., <b>An, S.</b>, Choi, S., Yang, S., Park, S. H., Park, S.
-                    "[Study on Intention Recognition and Sensory Feedback Control of Robotic Prosthetic Hand Through EMG Classification and Proprioceptive Feedback Using Rule-based Haptic Device](https://www.sciencedirect.com/science/article/pii/S0031320322007713)."
+                    "Study on Intention Recognition and Sensory Feedback Control of Robotic Prosthetic Hand Through EMG Classification and Proprioceptive Feedback Using Rule-based Haptic Device."
                     "IEEE Transactions on Haptics (ToH)."
 
       - layout: top-middle
@@ -134,28 +142,48 @@ content:
           Annual International Conference of the IEEE Engineering in Medicine & Biology Society Research Poster (EMBC Research Poster).
       - layout: left
         sub_title: (C5) 2024
+        paper_link:
+          url: https://arxiv.org/abs/2312.13783
+          icon: fas fa-paperclip
+          title: Paper Link
         description: Kim, S., <b>An, S.</b>, Chikontwe, P., Kang, M., Adeli, E., Phol, K. M., & Park, S. H. 
-          "[Few Shot Part Segmentation Reveals Compositional Logic for Industrial Anomaly Detection](https://arxiv.org/abs/2312.13783)" 
+          "Few Shot Part Segmentation Reveals Compositional Logic for Industrial Anomaly Detection" 
           AAAI Conference on Artificial Intelligence (AAAI).
       - layout: left
         sub_title: (C4) 2021
+        paper_link:
+          url: https://ojs.aaai.org/index.php/AAAI/article/view/16275
+          icon: fas fa-paperclip
+          title: Paper Link
         description: Kim, S., <b>An, S.</b>, Chikontwe, P., & Park, S. H.
-          "[Bidirectional RNN-based few shot learning for 3d medical image segmentation](https://ojs.aaai.org/index.php/AAAI/article/view/16275)"
+          "Bidirectional RNN-based few shot learning for 3d medical image segmentation"
           AAAI Conference on Artificial Intelligence (AAAI).
       - layout: left
         sub_title: (C3) 2021
+        paper_link:
+          url: https://link.springer.com/chapter/10.1007/978-3-030-87602-9_1
+          icon: fas fa-paperclip
+          title: Paper Link
         description: Won. D, Jung. E., <b>An, S.</b>, Chikontwe, P., & Park, S. H.
-          "[Low-Dose CT Denoising Using Pseudo-CT Image Pairs](https://link.springer.com/chapter/10.1007/978-3-030-87602-9_1)"
+          "Low-Dose CT Denoising Using Pseudo-CT Image Pairs"
           MICCAI PRIME (International Workshop on PRedictive Intelligence In MEdicine).
       - layout: left
         sub_title: (C2) 2020
+        paper_link:
+          url: https://link.springer.com/chapter/10.1007/978-3-030-59354-4_7
+          icon: fas fa-paperclip
+          title: Paper Link
         description: Won. D, <b>An, S.</b>, Park, S. H., & Ye, D. H.
-          "[Low-dose CT denoising using octave convolution with high and low frequency bands](https://link.springer.com/chapter/10.1007/978-3-030-59354-4_7)"
+          "Low-dose CT denoising using octave convolution with high and low frequency bands"
           MICCAI PRIME (International Workshop on PRedictive Intelligence In MEdicine).
       - layout: left
         sub_title: (C1) 2020
+        paper_link:
+          url: https://ieeexplore.ieee.org/abstract/document/9340933
+          icon: fas fa-paperclip
+          title: Paper Link
         description: <b>An, S.</b>, Kim, S., Chikontwe, P., & Park, S. H.
-          "[Few-Shot Relation Learning with Attention for EEG-based Motor Imagery Classification](https://ieeexplore.ieee.org/abstract/document/9340933)"
+          "Few-Shot Relation Learning with Attention for EEG-based Motor Imagery Classification"
           IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
 
       - layout: top-middle
