@@ -46,11 +46,11 @@
       {{ item.description | strip | markdownify }}
       {%- endif -%}
       {%- endif -%}
+      {%- if item.papertitle -%}
+        {{ item.papertitle }}
+      {%- endif -%}
       {%- if item.authors -%}
         Authors: {{ item.authors }}
-      {%- endif -%}
-      {%- if item.papertitle -%}
-        Title: {{ item.papertitle }}
       {%- endif -%}
       {%- if item.publisher -%}
         Publisher: {{ item.publisher }}
