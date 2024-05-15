@@ -62,23 +62,23 @@ content:
     layout: list
     content:
       - layout: left
-        sub_title: 03.2020 - Present
+        sub_title: 2020.03 - Present
         description: <b>Combined Undergraduate-Graduate Program</b>, Department of Robotics and Mechatronics Engineering, Daegu Gyeongbuk Institute of Science and Technology (DGIST), Daegu, South Korea.
       - layout: left
-        sub_title: 03.2015 - 02.2020
+        sub_title: 2015.03 - 2020.02
         description: <b>Bachelor of Engineering</b>, School of Undergraduate Studies, Daegu Gyeongbuk Institute of Science and Technology (DGIST), Daegu, South Korea.
 
   - title: Research Experiences # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        sub_title: 01.2024 - Present
+        sub_title: 2024.01 - Present
         description: <b>Visiting Student</b> at [Shen Lab](https://www.med.upenn.edu/shenlab/) advised by Professor Li Shen
       - layout: left
-        sub_title: 03.2017 - 12.2017
+        sub_title: 2017.03 - 2017.12
         description: <b>Undergraduate Group Research Program (UGRP)</b>  at [BRAINLab](https://dgist-lab.wixsite.com/brainlab) advised by Professor Jinung An
       - layout: left
-        sub_title: 01.2017 - 02.2018
+        sub_title: 2017.01 - 2018.02
         description: <b>Undergraduate Research Assistant</b> at [DEMRC](https://mems.dgist.ac.kr/) advised by Professor Hongsoo Choi
 
   - title: Publications # Title for the section
