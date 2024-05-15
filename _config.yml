@@ -91,6 +91,7 @@ content:
         authors: Ullah, I., <b>An, S.</b>, Chikontwe, P., Kang, M., Choi, J., & Park, S. H.
         papertitle: Video Domain Adaptation for Semantic Segmentation using Perceptual Consistency Matching
         publisher: Neural Networks (NN)
+
       - layout: left
         sub_title: Under Review
         authors: <b>An, S.</b>, Kim, S., Chikontwe, P., Jung, J., Jeon, H., Kim, J., & Park, S. H.

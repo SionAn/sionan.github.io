@@ -52,7 +52,7 @@
         {{ item.authors | strip | markdownify }}
       {%- endif -%}
       {%- if item.publisher -%}
-        {{ item.publisher | strip | markdownify }}
+        <i>{{ item.publisher | strip | markdownify }}</i>
       {%- endif -%}
     </div>
   </div>
