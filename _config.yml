@@ -99,7 +99,7 @@ content:
         publisher: Expert Systems With Applications (ESWA)
 
       - layout: top-middle
-        sub_title: Journal Articles
+        title: Journal Articles
       - layout: left
         sub_title: 2023
         index: J3
