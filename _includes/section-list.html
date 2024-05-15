@@ -8,7 +8,7 @@
             {%- if item.index -%}
               [{{ item.index }}]
             {%- endif -%}
-            {{ item.sub_title }}
+            {{ item.index }}{{ item.index != null ? " " : "" }}{{ item.sub_title }}
           </b>
           {%- if item.paper_link -%}
             <a href="{{ item.paper_link.url }}" class="paper-link" target="_blank">
