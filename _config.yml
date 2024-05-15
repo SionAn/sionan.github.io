@@ -100,7 +100,8 @@ content:
       - layout: top-middle
         sub_title: Journal Articles
       - layout: left
-        sub_title: (J3) 2023
+        sub_title: 2023
+        index: J3
         paper_link:
           url: https://ieeexplore.ieee.org/document/10167679
           icon: fas fa-paperclip
