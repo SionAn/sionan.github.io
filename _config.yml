@@ -98,6 +98,12 @@ content:
         papertitle: Few shot Anomaly Detection using Positive Unlabeled Learning with Cycle Consistency and Co-occurrence Features
         publisher: Expert Systems With Applications (ESWA)
 
+      - layout: left
+        sub_title: In preparation
+        authors: Lee, S., Kim, S., <b>An, S.</b>, Lee, S., & Park, S. H.
+        papertitle: Few-Shot Logical Anomaly Detection with Text-based Logics via Language-Image Contrastive Training
+        publisher: ACM International Conference on Information and Knowledge Management (CIKM)
+
       - layout: top-middle
         title: Journal Articles
       - layout: left
