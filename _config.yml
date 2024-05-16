@@ -104,6 +104,12 @@ content:
         papertitle: Few-Shot Logical Anomaly Detection with Text-based Logics via Language-Image Contrastive Training
         publisher: ACM International Conference on Information and Knowledge Management (CIKM)
 
+      - layout: left
+        sub_title: In preparation
+        authors: <b>An, S.</b>, Shen, L., & Park, S. H.
+        papertitle: Resting State EEG signals based Subject-Adaptive Meta Learning for Cross-Subject EEG Motor Imagery Classification
+        publisher: To Be Determined
+
       - layout: top-middle
         title: Journal Articles
       - layout: left
@@ -143,8 +149,10 @@ content:
         papertitle: Study on Intention Recognition and Sensory Feedback Control of Robotic Prosthetic Hand Through EMG Classification and Proprioceptive Feedback Using Rule-based Haptic Device
         publisher: IEEE Transactions on Haptics (ToH)
 
+
       - layout: top-middle
         title: International Conference Papers
+
       - layout: left
         sub_title: 2024
         index: C7
