@@ -102,13 +102,13 @@ content:
         sub_title: In preparation
         authors: Lee, S., Kim, S., <b>An, S.</b>, Lee, S., & Park, S. H.
         papertitle: Few-Shot Logical Anomaly Detection with Text-based Logics via Language-Image Contrastive Training
-        publisher: ACM International Conference on Information and Knowledge Management (CIKM)
+#        publisher: ACM International Conference on Information and Knowledge Management (CIKM)
 
       - layout: left
         sub_title: In preparation
         authors: <b>An, S.</b>, Shen, L., & Park, S. H.
-        papertitle: Resting State EEG signals based Subject-Adaptive Meta Learning for Cross-Subject EEG Motor Imagery Classification
-        publisher: To Be Determined
+        papertitle: Resting State EEG signals based Meta Learning for Cross-Subject EEG Motor Imagery Classification
+#        publisher: Journal of Biomedical and Health Informatics (JBHI)
 
       - layout: top-middle
         title: Journal Articles
