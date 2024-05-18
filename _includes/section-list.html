@@ -49,7 +49,7 @@
         <b>{{ item.papertitle | strip | markdownify }}</b>
       {%- endif -%}
       {%- if item.authors -%}
-        {{ item.authors | strip | markdownify }}
+        {{ item.authors | strip | markdownify | replace: 'An, S.', '<b>An, S.</b>' }}
       {%- endif -%}
       {%- if item.publisher -%}
         <i>{{ item.publisher | strip | markdownify }}</i>
