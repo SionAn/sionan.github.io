@@ -32,7 +32,7 @@ orcid_username: 0000-0002-3800-7158
 # Additional icon links
 additional_links:
   - title: Google Scholar
-    icon: fab fa-google
+    icon: fas fa-graduation-cap  #fab fa-google
     url: https://scholar.google.com/citations?user=fr1Fb5UAAAAJ&hl=ko
 
 # - title: another link
@@ -90,25 +90,25 @@ content:
         sub_title: Under Review
         authors: Ullah, I., <b>An, S.</b>, Chikontwe, P., Kang, M., Choi, J., & Park, S. H.
         papertitle: Video Domain Adaptation for Semantic Segmentation using Perceptual Consistency Matching
-        publisher: Neural Networks (NN)
+#        publisher: Neural Networks (NN)
 
       - layout: left
         sub_title: Under Review
         authors: <b>An, S.</b>, Kim, S., Chikontwe, P., Jung, J., Jeon, H., Kim, J., & Park, S. H.
         papertitle: Few shot Anomaly Detection using Positive Unlabeled Learning with Cycle Consistency and Co-occurrence Features
-        publisher: Expert Systems With Applications (ESWA)
+#        publisher: Expert Systems With Applications (ESWA)
 
       - layout: left
         sub_title: In preparation
         authors: Lee, S., Kim, S., <b>An, S.</b>, Lee, S., & Park, S. H.
         papertitle: Few-Shot Logical Anomaly Detection with Text-based Logics via Language-Image Contrastive Training
-        publisher: ACM International Conference on Information and Knowledge Management (CIKM)
+#        publisher: ACM International Conference on Information and Knowledge Management (CIKM)
 
       - layout: left
         sub_title: In preparation
         authors: <b>An, S.</b>, Shen, L., & Park, S. H.
-        papertitle: Resting State EEG signals based Subject-Adaptive Meta Learning for Cross-Subject EEG Motor Imagery Classification
-        publisher: To Be Determined
+        papertitle: Resting State EEG signals based Meta Learning for Cross-Subject EEG Motor Imagery Classification
+#        publisher: Journal of Biomedical and Health Informatics (JBHI)
 
       - layout: top-middle
         title: Journal Articles
