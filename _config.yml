@@ -73,13 +73,13 @@ content:
     content:
       - layout: left
         sub_title: 2024.01 - Present
-        description: <b>Visiting Student</b> at <a href="https://www.med.upenn.edu/shenlab/" target="_blank">Shen Lab</a> advised by Professor Li Shen
+        description: <b>Visiting Student</b> advised by Professor Li Shen at <a href="https://www.med.upenn.edu/shenlab/" target="_blank">Shen Lab</a> in University of Pennsylvania
       - layout: left
         sub_title: 2017.03 - 2017.12
-        description: <b>Undergraduate Group Research Program (UGRP)</b> at <a href="https://dgist-lab.wixsite.com/brainlab" target="_blank">BRAINLab</a> advised by Professor Jinung An
+        description: <b>Undergraduate Group Research Program (UGRP)</b> advised by Professor Jinung An at <a href="https://dgist-lab.wixsite.com/brainlab" target="_blank">BRAINLab</a> in DGIST
       - layout: left
         sub_title: 2017.01 - 2018.02
-        description: <b>Undergraduate Research Assistant</b> at <a href="https://mems.dgist.ac.kr/" target="_blank">DEMRC</a> advised by Professor Hongsoo Choi
+        description: <b>Undergraduate Research Assistant</b> advised by Professor Hongsoo Choi at <a href="https://mems.dgist.ac.kr/" target="_blank">DEMRC</a> in DGIST
 
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
