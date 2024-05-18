@@ -235,7 +235,7 @@ content:
       - layout: left
         sub_title: 2023
         index: D5
-        authors: Lee. D, An, S., & Park, S. H.
+        authors: Lee, D., An, S., & Park, S. H.
         papertitle: Anomaly Detection on Abdominal CT and Brain MRI based on Densitiy-Estimation
         publisher: Workshop on Image Processing and Image Understanding (IPIU)
 
