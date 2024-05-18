@@ -18,15 +18,15 @@ darkmode: false
 #twitter_username: facespics
 github_username:  SionAn
 # stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
-#linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
+# dribbble_username: SionAn
+# facebook_username: SionAn
+# flickr_username: SionAn
+#instagram_username: SionAn
+#linkedin_username: SionAn
+# xing_username: SionAn
+# pinterest_username: SionAn
+#youtube_username: SionAn
+# googleplus_username: +SionAn
 orcid_username: 0000-0002-3800-7158
 
 # Additional icon links
@@ -284,20 +284,6 @@ content:
       - (2023) Industry-Academia Scholarship from the CTO team at LG Electronics
       - (2021) Ranked 3rd in SNUH Sleep AI Challenge
       - (2021) Paper Awards at ICROS 2021
-
-## Footer
-#footer_show_references: true
-## references_title: References on request (Override references text)
-#
-## Build settings
-#remote_theme: sproogen/resume-theme
-#
-#sass:
-#  sass_dir: _sass
-#  style: compressed
-#
-#plugins:
-# - jekyll-seo-tag
 
 # Footer
 footer_show_references: true
