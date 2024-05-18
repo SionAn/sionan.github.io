@@ -156,10 +156,6 @@ content:
       - layout: left
         sub_title: 2024
         index: C7
-        code_link:
-          url: https://github.com/SionAn/MICCAI2024-ResTL
-          icon: fab fa-github
-          title: Code Link
         authors: <b>An, S.</b>, Kang, M., Kim, S., Chikontwe, P., Shen, L., & Park, S. H.
         papertitle: Subject-Adaptive Transfer Learning Using Resting State EEG Signals for Cross-Subject EEG Motor Imagery Classification
         publisher: International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI) (Early Accept<Top11%)
