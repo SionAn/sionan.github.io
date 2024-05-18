@@ -175,7 +175,7 @@ content:
         sub_title: 2024
         index: C5
         paper_link:
-          url: https://arxiv.org/abs/2312.13783
+          url: https://ojs.aaai.org/index.php/AAAI/article/view/28703
           icon: fas fa-paperclip
           title: Paper Link
         authors: Kim, S., <b>An, S.</b>, Chikontwe, P., Kang, M., Adeli, E., Phol, K. M., & Park, S. H.
