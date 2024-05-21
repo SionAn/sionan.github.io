@@ -99,7 +99,7 @@ content:
 #        publisher: Expert Systems With Applications (ESWA)
 
       - layout: left
-        sub_title: In preparation
+        sub_title: Under Review
         authors: Lee, S., Kim, S., An, S., Park, S. H., & Lee, S.
         papertitle: Few-Shot Logical Anomaly Detection with Text-based Logics via Language-Image Contrastive Training
 #        publisher: ACM International Conference on Information and Knowledge Management (CIKM)
