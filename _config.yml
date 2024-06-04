@@ -49,7 +49,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/SionAn.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Sion An and I'm a Ph.D. Candidate in [MISPL](https://sites.google.com/view/mispl/home) at Daegu Gyeongbuk Institute of Science and Technology (DGIST) advised by [Professor Sang Hyun Park](https://sites.google.com/view/mispl/members/professor).
+  Hi, my name is Sion An and I'm a Ph.D. Candidate in <a href="https://sites.google.com/view/mispl/home" target="_blank">Medical Image and Signal Processing Laboratory</a> at Daegu Gyeongbuk Institute of Science and Technology (DGIST) advised by <a href="https://sites.google.com/view/mispl/members/professor" target="_blank">Professor Sang Hyun Park</a>.
   I obtaind my B.S. from DGIST in February 2020. 
   
   My research statement is as follows:
