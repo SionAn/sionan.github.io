@@ -156,6 +156,10 @@ content:
       - layout: left
         sub_title: 2024
         index: C7
+        paper_link:
+          url: https://arxiv.org/abs/2405.19346
+          icon: fas fa-paperclip
+          title: Paper Link
         code_link:
           url: https://github.com/SionAn/MICCAI2024-ResTL
           icon: fab fa-github
