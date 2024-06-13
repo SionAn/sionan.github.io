@@ -274,6 +274,7 @@ content:
   - title: Review Services
     layout: text
     content: |
+      - Medical Image Analysis
       - IEEE Transactions on Industrial Informatics (TII)
       - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
       - IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE)
