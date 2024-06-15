@@ -1,0 +1,30 @@
+name: Convert Markdown to PDF
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install Pandoc
+        run: sudo apt-get install -y pandoc
+
+      - name: Convert Markdown to PDF
+        run: |
+          mkdir -p output
+          for file in $(find . -name '*.md'); do
+            pandoc "$file" -o "output/${file%.md}.pdf"
+          done
+
+      - name: Upload PDF files
+        uses: actions/upload-artifact@v2
+        with:
+          name: pdf-files
+          path: output/
