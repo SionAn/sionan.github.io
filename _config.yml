@@ -211,6 +211,15 @@ content:
 
       - layout: top-middle
         title: Domestic Conference Papers
+
+      - layout: left
+        sub_title: 2024
+        index: D6
+        paper_link:
+          url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11765573
+        authors: Choi, Y., Ryu, C., Kim, H., Park, H., An, S., Park, S. H., & Kim, H.
+        papertitle: Robot gripper integrated thermal sensor based on pyroelectric effect
+        publisher: The Korean Society of Mechanical Engineers Annual Meeting
       - layout: left
         sub_title: 2023
         index: D5
@@ -221,10 +230,12 @@ content:
       - layout: left
         sub_title: 2022
         index: D4
+        paper_link:
+          url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11132672
         authors: An, S., Kim, S., Chikontwe, P., Park, H., Abdul, T., & Park, S. H.
         papertitle: Dual Attention Relation Network for Few Shot EEG Motor Imagery Classification
-
         publisher: Summer Annual Conference of IEIE
+
       - layout: left
         sub_title: 2021
         index: D3
@@ -242,6 +253,8 @@ content:
       - layout: left
         sub_title: 2017
         index: D1
+        paper_link:
+          url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07288378
         authors: Lee, H., An, S., Jeon, S., Kim, K., Lee, S., Lee, S., Kim, J. Y., & Choi, H.
         papertitle: Development of Helical Drilling Microrobot Based on Catheter and Guidewire for Chronic Total Occlusion Treatment
         publisher: The Korean Society of Mechanical Engineers Annual Meeting
