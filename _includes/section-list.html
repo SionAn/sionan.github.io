@@ -12,13 +12,19 @@
           </b>
           {%- if item.paper_link -%}
             <a href="{{ item.paper_link.url }}" class="paper-link" target="_blank">
-              <i class="fas fa-paperclip" title="Paper Link"></i>
+              <i class="fas fa-newspaper" title="Paper Link"></i>
 <!--              <i class="{{ item.paper_link.icon }}" title="{{ item.paper_link.title | escape }}"></i>-->
             </a>
           {%- endif -%}
           {%- if item.code_link -%}
             <a href="{{ item.code_link.url }}" class="code-link" target="_blank">
-              <i class="fas fa-paperclip" title="Code Link"></i>
+              <i class="fab fa-github" title="Code Link"></i>
+<!--              <i class="{{ item.code_link.icon }}" title="{{ item.code_link.title | escape }}"></i>-->
+            </a>
+          {%- endif -%}
+          {%- if item.others -%}
+            <a href="{{ item.others.url }}" class="other-link" target="_blank">
+              <i class="fas fa-paperclip" title="Other Link"></i>
 <!--              <i class="{{ item.code_link.icon }}" title="{{ item.code_link.title | escape }}"></i>-->
             </a>
           {%- endif -%}

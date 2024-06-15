@@ -117,12 +117,10 @@ content:
         index: J3
         paper_link:
           url: https://ieeexplore.ieee.org/document/10167679
-          icon: fas fa-paperclip
-          title: Paper Link
         code_link:
           url: https://github.com/SionAn/FewShotEEG
-          icon: fab fa-github
-          title: Code Link
+        others:
+          url: https://m.hankookilbo.com/News/Read/A2023082309580001583
         authors: An, S., Kim, S., Chikontwe, P., & Park, S. H.
         papertitle: Dual Attention Relation Network with Fine-Tuning for Few Shot EEG Motor Imagery Classification
         publisher: IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
@@ -132,8 +130,6 @@ content:
         index: J2
         paper_link:
           url: https://www.sciencedirect.com/science/article/pii/S0031320322007713
-          icon: fas fa-paperclip
-          title: Paper Link
         authors: Kim, S., Chikontwe, P., An, S., & Park, S. H.
         papertitle: Uncertainty-aware semi-supervised few shot segmentation
         publisher: Pattern Recognition (PR)
@@ -143,8 +139,6 @@ content:
         index: J1
         paper_link:
           url: https://ieeexplore.ieee.org/document/9783070
-          icon: fas fa-paperclip
-          title: Paper Link
         authors: Cha, H., An, S., Choi, S., Yang, S., Park, S. H., Park, S.
         papertitle: Study on Intention Recognition and Sensory Feedback Control of Robotic Prosthetic Hand Through EMG Classification and Proprioceptive Feedback Using Rule-based Haptic Device
         publisher: IEEE Transactions on Haptics (ToH)
@@ -158,12 +152,8 @@ content:
         index: C7
         paper_link:
           url: https://arxiv.org/abs/2405.19346
-          icon: fas fa-paperclip
-          title: Paper Link
         code_link:
           url: https://github.com/SionAn/MICCAI2024-ResTL
-          icon: fab fa-github
-          title: Code Link
         authors: An, S., Kang, M., Kim, S., Chikontwe, P., Shen, L., & Park, S. H.
         papertitle: Subject-Adaptive Transfer Learning Using Resting State EEG Signals for Cross-Subject EEG Motor Imagery Classification
         publisher: International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI) (Early Accept<Top11%)
@@ -180,8 +170,6 @@ content:
         index: C5
         paper_link:
           url: https://ojs.aaai.org/index.php/AAAI/article/view/28703
-          icon: fas fa-paperclip
-          title: Paper Link
         authors: Kim, S., An, S., Chikontwe, P., Kang, M., Adeli, E., Phol, K. M., & Park, S. H.
         papertitle: Few Shot Part Segmentation Reveals Compositional Logic for Industrial Anomaly Detection
         publisher: AAAI Conference on Artificial Intelligence (AAAI)
@@ -191,8 +179,6 @@ content:
         index: C4
         paper_link:
           url: https://ojs.aaai.org/index.php/AAAI/article/view/16275
-          icon: fas fa-paperclip
-          title: Paper Link
         authors: Kim, S., An, S., Chikontwe, P., & Park, S. H.
         papertitle: Bidirectional RNN-based few shot learning for 3d medical image segmentation
         publisher: AAAI Conference on Artificial Intelligence (AAAI)
@@ -202,8 +188,6 @@ content:
         index: C3
         paper_link:
           url: https://link.springer.com/chapter/10.1007/978-3-030-87602-9_1
-          icon: fas fa-paperclip
-          title: Paper Link
         authors: Won, D., Jung, E., An, S., Chikontwe, P., & Park, S. H.
         papertitle: Low-Dose CT Denoising Using Pseudo-CT Image Pairs
         publisher: MICCAI PRIME (International Workshop on PRedictive Intelligence In MEdicine)
@@ -213,8 +197,6 @@ content:
         index: C2
         paper_link:
           url: https://link.springer.com/chapter/10.1007/978-3-030-59354-4_7
-          icon: fas fa-paperclip
-          title: Paper Link
         authors: Won, D., An, S., Park, S. H., & Ye, D. H.
         papertitle: Low-dose CT denoising using octave convolution with high and low frequency bands
         publisher: MICCAI PRIME (International Workshop on PRedictive Intelligence In MEdicine)
@@ -224,12 +206,8 @@ content:
         index: C1
         paper_link:
           url: https://ieeexplore.ieee.org/abstract/document/9340933
-          icon: fas fa-paperclip
-          title: Paper Link
         code_link:
           url: https://github.com/SionAn/FewShotEEG
-          icon: fab fa-github
-          title: Code Link
         authors: An, S., Kim, S., Chikontwe, P., & Park, S. H.
         papertitle: Few-Shot Relation Learning with Attention for EEG-based Motor Imagery Classification
         publisher: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
