@@ -118,7 +118,7 @@ content:
         sub_title: 2023
         index: J3
         paper_link:
-          url: https://ieeexplore.ieee.org/document/10167679
+          url: https://doi.org/10.1109/TNNLS.2023.3287181
         code_link:
           url: https://github.com/SionAn/FewShotEEG
         others:
@@ -131,7 +131,7 @@ content:
         sub_title: 2023
         index: J2
         paper_link:
-          url: https://www.sciencedirect.com/science/article/pii/S0031320322007713
+          url: https://doi.org/10.1016/j.patcog.2022.109292
         authors: Kim, S., Chikontwe, P., An, S., & Park, S. H.
         papertitle: Uncertainty-aware semi-supervised few shot segmentation
         publisher: Pattern Recognition (PR)
@@ -140,7 +140,7 @@ content:
         sub_title: 2022
         index: J1
         paper_link:
-          url: https://ieeexplore.ieee.org/document/9783070
+          url: https://doi.org/10.1109/TOH.2022.3177714
         authors: Cha, H., An, S., Choi, S., Yang, S., Park, S. H., Park, S.
         papertitle: Study on Intention Recognition and Sensory Feedback Control of Robotic Prosthetic Hand Through EMG Classification and Proprioceptive Feedback Using Rule-based Haptic Device
         publisher: IEEE Transactions on Haptics (ToH)
