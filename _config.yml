@@ -108,6 +108,8 @@ content:
       - layout: left
         sub_title: 2024
         index: J4
+        paper_link:
+          url: https://doi.org/10.1016/j.neunet.2024.106505
         authors: Ullah, I., An, S., Chikontwe, P., Kang, M., Choi, J., & Park, S. H.
         papertitle: Video Domain Adaptation for Semantic Segmentation using Perceptual Consistency Matching
         publisher: Neural Networks (NN)
