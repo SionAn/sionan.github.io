@@ -103,6 +103,8 @@ content:
       - layout: left
         sub_title: 2024
         index: J5
+        paper_link:
+          url: https://doi.org/10.1016/j.eswa.2024.124890
         authors: An, S., Kim, S., Chikontwe, P., Jung, J., Jeon, H., Kim, J., & Park, S. H.
         papertitle: Few shot Anomaly Detection using Positive Unlabeled Learning with Cycle Consistency and Co-occurrence Features
         publisher: Expert Systems with Applications (ESWA)
