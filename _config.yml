@@ -275,8 +275,10 @@ content:
       - IEEE Transactions on Industrial Informatics (TII)
       - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
       - IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE)
+      - Neural Networks (NN)
       - Cognitive Neurodynamics
       - International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)
+      - International Conference on Bioinformatics and Biomedicine (BIBM)
 
   - title: Awards
     layout: text
