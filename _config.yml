@@ -49,13 +49,14 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/SionAn.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Sion An and I'm a Ph.D. Candidate in <a href="https://sites.google.com/view/mispl/home" target="_blank">Medical Image and Signal Processing Laboratory</a> at Daegu Gyeongbuk Institute of Science and Technology (DGIST) advised by <a href="https://sites.google.com/view/mispl/members/professor" target="_blank">Professor Sang Hyun Park</a>.
+  I'm a Ph.D. Candidate in <a href="https://sites.google.com/view/mispl/home" target="_blank">Medical Image and Signal Processing Laboratory</a> at Daegu Gyeongbuk Institute of Science and Technology (DGIST) advised by <a href="https://sites.google.com/view/mispl/members/professor" target="_blank">Professor Sang Hyun Park</a>.
   I obtained my B.S. from DGIST in February 2020. 
   
-  My research statement is as follows:
-  Few-shot learning is a subset of deep learning algorithms and necessitates only a small set of labeled data. This facilitates the application of AI across diverse fields with limited labeled datasets. A topic of interest is few-shot learning for the development of tailored AI solutions e.g., personalized/targeted tasks.
+  I am interested in developing deep learning algorithms for tailored solutions. 
+  Specifically, my research focuses on personalized and targeted tasks using meta-learning and transfer learning techniques to build AI solutions that perform effectively with limited labeled data and supplementary information. 
+  This enables the application of AI across diverse domains, including brain signal analysis and anomaly detection.
 
-  Keywords: <mark>Few-shot Learning</mark>, <mark>Medical Image and Signal Processing</mark>, <mark>Brain-Computer Interfaces</mark>
+  Keywords: <mark>Meta-Learning</mark>, <mark>Transfer Learning</mark>, <mark>Medical Image and Signal Processing</mark>, <mark>Brain-Computer Interfaces</mark>
 
 content:
   - title: Education
