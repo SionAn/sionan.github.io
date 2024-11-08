@@ -54,7 +54,7 @@ about_content: | # this will include new lines to allow paragraphs
   
   I am interested in developing deep learning algorithms for tailored solutions. 
   Specifically, my research focuses on personalized and targeted tasks using meta-learning and transfer learning techniques to build AI solutions that perform effectively with limited labeled data and supplementary information. 
-  This enables the application of AI across diverse domains, including brain signal analysis and anomaly detection.
+  This facilitates the application of AI across diverse domains, including brain signal analysis and anomaly detection.
 
   Keywords: <mark>Meta-Learning</mark>, <mark>Transfer Learning</mark>, <mark>Medical Image and Signal Processing</mark>, <mark>Brain-Computer Interfaces</mark>
 
