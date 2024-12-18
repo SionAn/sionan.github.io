@@ -73,7 +73,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        sub_title: 2024.01 - Present
+        sub_title: 2024.01 - 2024.12
         description: <b>Visiting Student</b> at <a href="https://www.med.upenn.edu/shenlab/" target="_blank">Shen Lab</a>, University of Pennsylvania advised by Professor Li Shen
       - layout: left
         sub_title: 2017.03 - 2017.12
@@ -90,13 +90,19 @@ content:
 
       - layout: left
         sub_title: Under Review
+        authors: An, S., Kang, M., Kim, S., Chikontwe, P., Shen, L., & Park, S. H.
+        papertitle: Resting State EEG Signal based Subject-Adaptive Meta-Learning for Brain-Computer Interfaces
+
+      - layout: left
+        sub_title: Under Review
         authors: Lee, S., Kim, S., An, S., Park, S. H., & Lee, S.
         papertitle: Few-Shot Logical Anomaly Detection with Text-based Logics via Language-Image Contrastive Training
 
       - layout: left
-        sub_title: In preparation
-        authors: An, S., Shen, L., & Park, S. H.
-        papertitle: Resting State EEG signal based Subject-Adaptive Meta-Learning for Brain-Computer Interface
+        sub_title: Under Review
+        authors: Kim, S., Lee, K., An, S., Chikontwe, P., Kang, M., Adeli, E., Pohl, K. M., & Park, S. H.
+        papertitle: Semantic Context Guided Industrial Anomaly Detection with Semi-Supervised Few-Shot Part Segmentation
+
 
       - layout: top-middle
         title: Journal Articles
