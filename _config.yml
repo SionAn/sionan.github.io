@@ -95,11 +95,6 @@ content:
 
       - layout: left
         sub_title: Under Review
-        authors: Lee, S., Kim, S., An, S., Park, S. H., & Lee, S.
-        papertitle: Few-Shot Logical Anomaly Detection with Text-based Logics via Language-Image Contrastive Training
-
-      - layout: left
-        sub_title: Under Review
         authors: Kim, S., Lee, K., An, S., Chikontwe, P., Kang, M., Adeli, E., Pohl, K. M., & Park, S. H.
         papertitle: Semantic Context Guided Industrial Anomaly Detection with Semi-Supervised Few-Shot Part Segmentation
 
@@ -159,6 +154,13 @@ content:
 
       - layout: top-middle
         title: International Conference Papers
+
+      - layout: left
+        sub_title: 2025
+        index: C8
+        authors: Lee, S., Kim, S., An, S., Park, S. H., & Lee, S.
+        papertitle: Few-Shot Logical Anomaly Detection with Text-based Logics via Language-Image Contrastive Training
+        publisher: ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)
 
       - layout: left
         sub_title: 2024
