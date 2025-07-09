@@ -101,7 +101,7 @@ content:
         sub_title: 2025
         index: J6
         authors: An, S., Kang, M., Kim, S., Chikontwe, P., Shen, L., & Park, S. H.
-        papertitle: Subject-Adaptive Meta-Learning for Personalized BCI: A Fusion of Resting-State EEG Signal and Task-Specific Information
+        papertitle: "Subject-Adaptive Meta-Learning for Personalized BCI: A Fusion of Resting-State EEG Signal and Task-Specific Information"
         publisher: Information Fusion
 
       - layout: left
