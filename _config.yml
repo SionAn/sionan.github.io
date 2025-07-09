@@ -90,17 +90,19 @@ content:
 
       - layout: left
         sub_title: Under Review
-        authors: An, S., Kang, M., Kim, S., Chikontwe, P., Shen, L., & Park, S. H.
-        papertitle: Resting State EEG Signal based Subject-Adaptive Meta-Learning for Brain-Computer Interfaces
-
-      - layout: left
-        sub_title: Under Review
         authors: Kim, S., Lee, K., An, S., Chikontwe, P., Kang, M., Adeli, E., Pohl, K. M., & Park, S. H.
         papertitle: Semantic Context Guided Industrial Anomaly Detection with Semi-Supervised Few-Shot Part Segmentation
 
 
       - layout: top-middle
         title: Journal Articles
+
+      - layout: left
+        sub_title: 2025
+        index: J6
+        authors: An, S., Kang, M., Kim, S., Chikontwe, P., Shen, L., & Park, S. H.
+        papertitle: Subject-Adaptive Meta-Learning for Personalized BCI: A Fusion of Resting-State EEG Signal and Task-Specific Information
+        publisher: Information Fusion
 
       - layout: left
         sub_title: 2024
