@@ -47,7 +47,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/SionAn.jpg
+about_profile_image: images/SionAn.png
 about_content: | # this will include new lines to allow paragraphs
   I'm a Ph.D. Candidate in <a href="https://sites.google.com/view/mispl/home" target="_blank">Medical Image and Signal Processing Laboratory</a> at Daegu Gyeongbuk Institute of Science and Technology (DGIST) advised by <a href="https://sites.google.com/view/mispl/members/professor" target="_blank">Professor Sang Hyun Park</a>.
   I obtained my B.S. from DGIST in February 2020. 
