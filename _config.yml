@@ -317,13 +317,17 @@ content:
     layout: text
     content: |
       - Medical Image Analysis
+      - Neural Networks
+      - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
       - IEEE Transactions on Industrial Informatics (TII)
       - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
       - IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE)
-      - Neural Networks (NN)
+      - IEEE Transactions on Knowledge and Data Engineering (TKDE)
+      - Journal of Biomedical and Health Informatics (JBHI)
       - Cognitive Neurodynamics
       - International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)
       - International Conference on Bioinformatics and Biomedicine (BIBM)
+      - The AAAI Conference on Artificial Intelligence (AAAI)
 
   - title: Awards
     layout: text
