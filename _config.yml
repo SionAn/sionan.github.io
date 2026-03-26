@@ -49,12 +49,14 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/SionAn.png
 about_content: | # this will include new lines to allow paragraphs
-  I'm a Ph.D. Candidate in <a href="https://sites.google.com/view/mispl/home" target="_blank">Medical Image and Signal Processing Laboratory</a> at Daegu Gyeongbuk Institute of Science and Technology (DGIST) advised by <a href="https://sites.google.com/view/mispl/members/professor" target="_blank">Professor Sang Hyun Park</a>.
-  I obtained my B.S. from DGIST in February 2020. 
-  
-  I am interested in developing deep learning algorithms for tailored solutions. 
-  Specifically, my research focuses on personalized and targeted tasks using meta-learning and transfer learning techniques to build AI solutions that perform effectively with limited labeled data and supplementary information. 
-  This facilitates the application of AI across diverse domains, including brain signal analysis and anomaly detection.
+  I'm a Postdoctoral Researcher at the <a href="https://ai.postech.ac.kr/" target="_blank">Graduate School of Artificial Intelligence</a>,
+  Pohang University of Science and Technology (POSTECH), affiliated with the <a href="https://sites.google.com/view/mispl/home" target="_blank">Medical Artificial Intelligence Lab</a>
+  under the supervision of <a href="https://sites.google.com/view/mispl/members/professor" target="_blank">Professor Sang Hyun Park</a>.
+  I received my Ph.D. in Robotics and Mechatronics Engineering from DGIST in February 2026, and my B.S. from DGIST in February 2020.
+
+  I am interested in developing deep learning algorithms at the intersection of Brain-Computer Interfaces (BCI) and Artificial Intelligence.
+  Specifically, my research focuses on building meta-learning and transfer learning frameworks to address inter-subject variability in biosignals, enabling adaptive BCI systems that perform effectively with limited labeled data.
+  This facilitates personalized solutions for both machine control and clinical interventions across diverse domains, including brain signal analysis and medical image processing.
 
   Keywords: <mark>Meta-Learning</mark>, <mark>Transfer Learning</mark>, <mark>Medical Image and Signal Processing</mark>, <mark>Brain-Computer Interfaces</mark>
 
@@ -63,8 +65,8 @@ content:
     layout: list
     content:
       - layout: left
-        sub_title: 2020.03 - Present
-        description: <b>Combined Undergraduate-Graduate Program</b>, Department of Robotics and Mechatronics Engineering, Daegu Gyeongbuk Institute of Science and Technology (DGIST), Daegu, South Korea.
+        sub_title: 2020.03 - 2026.02
+        description: <b>Doctor of Philosophy</b>, Department of Robotics and Mechatronics Engineering, Daegu Gyeongbuk Institute of Science and Technology (DGIST), Daegu, South Korea, under the supervision of Prof. Sang Hyun Park
       - layout: left
         sub_title: 2015.03 - 2020.02
         description: <b>Bachelor of Engineering</b>, School of Undergraduate Studies, Daegu Gyeongbuk Institute of Science and Technology (DGIST), Daegu, South Korea.
@@ -72,6 +74,9 @@ content:
   - title: Research Experiences # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layoug: left
+        sub_title: 2024.01 - 2024.12
+        description: <b>Postdoctoral Researcher</b> at Graduate School of Artificial Intelligence, Pohang University of Science and Technology (POSTECH), affiliated with the Medical Artificial Intelligence Lab, Department of Computer Science and Engineering, under the supervision of Prof. Sang Hyun Park
       - layout: left
         sub_title: 2024.01 - 2024.12
         description: <b>Visiting Student</b> at <a href="https://www.med.upenn.edu/shenlab/" target="_blank">Shen Lab</a>, University of Pennsylvania advised by Professor Li Shen
@@ -85,14 +90,43 @@ content:
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Articles in Submission/Preparation
-
-      - layout: left
-        sub_title: Under Review
-        authors: Kim, S., Lee, K., An, S., Chikontwe, P., Kang, M., Adeli, E., Pohl, K. M., & Park, S. H.
-        papertitle: Semantic Context Guided Industrial Anomaly Detection with Semi-Supervised Few-Shot Part Segmentation
-
+#      - layout: top-middle
+#        title: Articles in Submission/Preparation
+#
+#      - layout: left
+#        sub_title: Under Review
+#        authors: Kim, S., Lee, K., An, S., Chikontwe, P., Kang, M., Adeli, E., Pohl, K. M., & Park, S. H.
+#        papertitle: Semantic Context Guided Industrial Anomaly Detection with Semi-Supervised Few-Shot Part Segmentation
+#
+#      - layout: left
+#        sub_title: Under Review
+#        authors: An, S., Kim, S., & Park, S. H.
+#        papertitle: Meta-Learning based EEG Foundation Model with Interpretable Functional Embeddings
+#
+#      - layout: left
+#        sub_title: Under Review
+#        authors: An, S., Kim, S., & Park, S. H.
+#        papertitle: Subject- and Task-Aware EEG Foundation Model
+#
+#      - layout: left
+#        sub_title: Under Review
+#        authors: Kim, Y., Kim, S., An, S., & Park, S. H.
+#        papertitle: "Rethinking RAG: Mitigating Text-Driven Hallucinations via Feature-Level Retrieval Integration in Medical LVLMs"
+#
+#      - layout: left
+#        sub_title: Under Review
+#        authors: Lee, H., Lee, G., An, S., & Park, S. H.
+#        papertitle: "CASTLE: Completion and Alignment Shape Transformer for Long-Bone Estimation"
+#
+#      - layout: left
+#        sub_title: Under Review
+#        authors: Lee, K.*, An, S.*, Ryu, H., Park, H., & Park, S. H.
+#        papertitle: Context-aware Large Language Model for Open-Vocabulary MEG-to-Text Decoding
+#
+#      - layout: left
+#        sub_title: Under Review
+#        authors: Park, H., Kim, S., Arsalane, W., An, S.†, & Park, S. H.†
+#        papertitle: Retrieval-Guided Federated Semi-Supervised Learning for Medical Image Segmentation
 
       - layout: top-middle
         title: Journal Articles
@@ -294,6 +328,7 @@ content:
   - title: Awards
     layout: text
     content: |
+      - (2026) Hyeseul Best Paper Award
       - (2023) DGIST Outstanding Researcher Award
       - (2023) DGIST Post-Graduate Research Abroad Awards
       - (2023) Industry-Academia Scholarship from the CTO team at LG Electronics
