@@ -1,0 +1,595 @@
+/* ============================================================
+   SION AN — PRINT STYLESHEET
+   Optimized for printing as a CV / academic resume
+   Usage: <link rel="stylesheet" href="print.css" media="print">
+   ============================================================ */
+
+@media print {
+
+  /* ------------------------------------------------------------
+     1. PAGE SETUP
+     ------------------------------------------------------------ */
+  @page {
+    size: A4 portrait;
+    margin: 18mm 18mm 22mm 18mm;
+  }
+
+  @page :first {
+    margin-top: 14mm;
+  }
+
+  /* Force A4 color rendering */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+
+  /* ------------------------------------------------------------
+     2. RESET SCREEN-ONLY ELEMENTS
+     ------------------------------------------------------------ */
+
+  /* Hide nav, footer, interactive elements */
+  .navbar,
+  .nav-hamburger,
+  .nav-mobile-menu,
+  .footer,
+  .section-divider,
+  .btn-link,
+  .hero-link,
+  .pub-links,
+  .stats-bar,
+  .news-list {
+    display: none !important;
+  }
+
+  /* Reset body */
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-family: 'Times New Roman', Times, Georgia, serif;
+    font-size: 10.5pt;
+    line-height: 1.45;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Reset page wrapper */
+  .page-wrapper {
+    display: block;
+  }
+
+  .main-content {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+  }
+
+  /* No scroll padding needed */
+  html {
+    scroll-padding-top: 0;
+  }
+
+
+  /* ------------------------------------------------------------
+     3. PAGE BREAKS
+     ------------------------------------------------------------ */
+  h1, h2, h3, h4 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  .section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .pub-card,
+  .timeline-item,
+  .award-item {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .timeline-item:last-child,
+  .pub-card:last-child {
+    page-break-after: auto;
+  }
+
+
+  /* ------------------------------------------------------------
+     4. HERO / HEADER SECTION
+     ------------------------------------------------------------ */
+  .hero {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    gap: 20pt !important;
+    padding: 0 0 16pt 0 !important;
+    border-bottom: 1.5pt solid #000 !important;
+    margin-bottom: 14pt !important;
+  }
+
+  .hero-photo {
+    width: 80pt !important;
+    height: 80pt !important;
+    border-radius: 50% !important;
+    border: 1pt solid #999 !important;
+    box-shadow: none !important;
+    flex-shrink: 0 !important;
+  }
+
+  .hero-photo:hover {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  .hero-photo-placeholder {
+    width: 80pt !important;
+    height: 80pt !important;
+    flex-shrink: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .hero-info {
+    flex: 1 !important;
+  }
+
+  .hero-name {
+    font-family: 'Times New Roman', Georgia, serif !important;
+    font-size: 20pt !important;
+    font-weight: bold !important;
+    color: #000 !important;
+    margin-bottom: 2pt !important;
+    letter-spacing: -0.01em !important;
+  }
+
+  .hero-name-kr {
+    font-size: 10.5pt !important;
+    color: #555 !important;
+  }
+
+  .hero-title {
+    font-size: 11pt !important;
+    color: #222 !important;
+    font-weight: 500 !important;
+    margin-bottom: 2pt !important;
+  }
+
+  .hero-affiliation {
+    font-size: 10pt !important;
+    color: #444 !important;
+    margin-bottom: 6pt !important;
+  }
+
+  .hero-affiliation a {
+    color: #000 !important;
+    border-bottom: none !important;
+  }
+
+  /* Flatten hero links into inline text */
+  .hero-links {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 4pt 10pt !important;
+  }
+
+  .hero-link {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 3pt !important;
+    font-size: 9pt !important;
+    color: #333 !important;
+    border: none !important;
+    background: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .hero-link::after {
+    /* Show URL after link text */
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #666;
+  }
+
+  /* Hide icon images in print */
+  .hero-link svg,
+  .hero-link img,
+  .hero-link .hero-link-icon {
+    display: none !important;
+  }
+
+
+  /* ------------------------------------------------------------
+     5. SECTIONS
+     ------------------------------------------------------------ */
+  .section {
+    padding: 10pt 0 !important;
+  }
+
+  .section-header {
+    margin-bottom: 6pt !important;
+  }
+
+  .section-title {
+    font-family: 'Times New Roman', Georgia, serif !important;
+    font-size: 13pt !important;
+    font-weight: bold !important;
+    color: #000 !important;
+    border-bottom: 1pt solid #000 !important;
+    display: block !important;
+    padding-bottom: 2pt !important;
+    margin-bottom: 8pt !important;
+    letter-spacing: 0 !important;
+  }
+
+  .about-text {
+    font-size: 10.5pt !important;
+    color: #222 !important;
+    line-height: 1.5 !important;
+    max-width: 100% !important;
+  }
+
+
+  /* ------------------------------------------------------------
+     6. TAGS / KEYWORDS
+     ------------------------------------------------------------ */
+  .tag-list {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 3pt 6pt !important;
+    margin-top: 4pt !important;
+  }
+
+  .tag {
+    font-size: 9pt !important;
+    color: #333 !important;
+    background: none !important;
+    border: 0.5pt solid #aaa !important;
+    border-radius: 2pt !important;
+    padding: 1pt 5pt !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+
+  /* ------------------------------------------------------------
+     7. PUBLICATION CARDS
+     ------------------------------------------------------------ */
+  .pub-list {
+    gap: 8pt !important;
+  }
+
+  .pub-card {
+    display: flex !important;
+    gap: 8pt !important;
+    padding: 6pt 0 6pt 8pt !important;
+    border: none !important;
+    border-left: 2pt solid #ccc !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: none !important;
+    transform: none !important;
+    transition: none !important;
+    margin-bottom: 6pt !important;
+  }
+
+  .pub-card::before {
+    display: none !important;
+  }
+
+  .pub-number {
+    font-family: 'Courier New', monospace !important;
+    font-size: 8pt !important;
+    font-weight: bold !important;
+    color: #666 !important;
+    background: none !important;
+    width: auto !important;
+    height: auto !important;
+    border-radius: 0 !important;
+    margin-top: 0 !important;
+    flex-shrink: 0 !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    padding-top: 1pt !important;
+  }
+
+  .pub-body {
+    flex: 1 !important;
+  }
+
+  .pub-top-row {
+    margin-bottom: 2pt !important;
+    gap: 4pt !important;
+  }
+
+  .pub-badge {
+    font-size: 7pt !important;
+    padding: 1pt 4pt !important;
+    border-radius: 2pt !important;
+    font-weight: bold !important;
+    /* Keep badge colors for print */
+  }
+
+  .pub-badge.journal   { background-color: #dbeafe !important; color: #1d4ed8 !important; border-color: #93c5fd !important; }
+  .pub-badge.conference{ background-color: #dcfce7 !important; color: #15803d !important; border-color: #86efac !important; }
+  .pub-badge.workshop  { background-color: #ffedd5 !important; color: #c2410c !important; border-color: #fed7aa !important; }
+  .pub-badge.domestic  { background-color: #f1f5f9 !important; color: #475569 !important; border-color: #cbd5e1 !important; }
+  .pub-badge.preprint  { background-color: #faf5ff !important; color: #7e22ce !important; border-color: #d8b4fe !important; }
+
+  .pub-title {
+    font-size: 10.5pt !important;
+    font-weight: bold !important;
+    color: #000 !important;
+    margin-bottom: 1pt !important;
+    line-height: 1.35 !important;
+  }
+
+  .pub-authors {
+    font-size: 9.5pt !important;
+    color: #333 !important;
+    margin-bottom: 1pt !important;
+  }
+
+  .pub-highlight {
+    font-weight: bold !important;
+    color: #000 !important;
+    text-decoration: underline !important;
+    text-decoration-color: #000 !important;
+  }
+
+  .pub-venue {
+    font-size: 9.5pt !important;
+    color: #333 !important;
+    font-style: italic !important;
+    margin-bottom: 0 !important;
+  }
+
+  .pub-meta {
+    font-size: 8.5pt !important;
+    color: #555 !important;
+  }
+
+  /* Show URLs for pub links in print */
+  .pub-links {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 3pt 8pt !important;
+    margin-top: 3pt !important;
+  }
+
+  .pub-links .btn-link {
+    display: inline !important;
+    font-size: 8pt !important;
+    color: #444 !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    font-family: 'Courier New', monospace !important;
+    text-decoration: underline !important;
+  }
+
+  .pub-links .btn-link::after {
+    content: " [" attr(href) "]";
+    font-size: 7.5pt;
+    color: #666;
+    text-decoration: none;
+  }
+
+  .pub-year-heading {
+    font-size: 9pt !important;
+    color: #666 !important;
+    letter-spacing: 0.06em !important;
+    margin-top: 12pt !important;
+    margin-bottom: 6pt !important;
+    border-bottom: 0.5pt dashed #bbb !important;
+    padding-bottom: 2pt !important;
+    font-family: 'Courier New', monospace !important;
+  }
+
+
+  /* ------------------------------------------------------------
+     8. TIMELINE (Experience & Education)
+     ------------------------------------------------------------ */
+  .timeline {
+    padding-left: 12pt !important;
+  }
+
+  .timeline::before {
+    left: 4pt !important;
+    width: 1pt !important;
+    background: #ccc !important;
+  }
+
+  .timeline-dot {
+    left: calc(-12pt + 1pt) !important;
+    width: 8pt !important;
+    height: 8pt !important;
+    border: 1pt solid #666 !important;
+    background: #fff !important;
+    top: 3pt !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  .timeline-content {
+    padding: 5pt 8pt !important;
+    border: 0.5pt solid #ddd !important;
+    border-radius: 2pt !important;
+    box-shadow: none !important;
+    transform: none !important;
+    transition: none !important;
+    background: none !important;
+  }
+
+  .timeline-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    flex-wrap: nowrap !important;
+    gap: 6pt !important;
+    margin-bottom: 1pt !important;
+  }
+
+  .timeline-date {
+    font-family: 'Courier New', monospace !important;
+    font-size: 8.5pt !important;
+    color: #333 !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .timeline-title {
+    font-size: 10.5pt !important;
+    font-weight: bold !important;
+    color: #000 !important;
+  }
+
+  .timeline-subtitle {
+    font-size: 9.5pt !important;
+    color: #444 !important;
+    font-style: italic !important;
+    margin-top: 1pt !important;
+  }
+
+  .timeline-desc {
+    font-size: 9.5pt !important;
+    color: #333 !important;
+    margin-top: 3pt !important;
+  }
+
+  .timeline-item {
+    padding-bottom: 10pt !important;
+  }
+
+
+  /* ------------------------------------------------------------
+     9. AWARDS
+     ------------------------------------------------------------ */
+  .award-list {
+    gap: 5pt !important;
+  }
+
+  .award-item {
+    padding: 4pt 6pt !important;
+    border: 0.5pt solid #ddd !important;
+    border-radius: 2pt !important;
+    box-shadow: none !important;
+    transform: none !important;
+    transition: none !important;
+    background: none !important;
+  }
+
+  .award-icon {
+    display: none !important;
+  }
+
+  .award-title {
+    font-size: 10pt !important;
+    font-weight: bold !important;
+    color: #000 !important;
+  }
+
+  .award-meta {
+    font-size: 9pt !important;
+    color: #444 !important;
+    font-family: 'Times New Roman', serif !important;
+  }
+
+  .award-year {
+    font-size: 8.5pt !important;
+    color: #333 !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    font-family: 'Courier New', monospace !important;
+  }
+
+
+  /* ------------------------------------------------------------
+     10. REVIEW LIST
+     ------------------------------------------------------------ */
+  .review-list {
+    gap: 2pt !important;
+    column-count: 2;
+    column-gap: 12pt;
+  }
+
+  .review-item {
+    font-size: 9.5pt !important;
+    padding: 2pt 4pt !important;
+    color: #333 !important;
+    border: none !important;
+    background: none !important;
+    break-inside: avoid;
+  }
+
+  .review-item::before {
+    background-color: #666 !important;
+    width: 4pt !important;
+    height: 4pt !important;
+  }
+
+  .review-item-count {
+    font-size: 8pt !important;
+    color: #666 !important;
+  }
+
+
+  /* ------------------------------------------------------------
+     11. TWO-COL GRID
+     ------------------------------------------------------------ */
+  .two-col-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 16pt !important;
+  }
+
+
+  /* ------------------------------------------------------------
+     12. LINKS — show URL in parentheses
+     ------------------------------------------------------------ */
+  a[href]::after {
+    content: none; /* Suppress global rule; use specific rules above */
+  }
+
+  /* For standalone text links in about/contact, show URL */
+  .about-text a[href^="http"]::after,
+  .about-text a[href^="mailto"]::after,
+  .contact-item a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 8.5pt;
+    color: #555;
+  }
+
+
+  /* ------------------------------------------------------------
+     13. MISCELLANEOUS PRINT FIXES
+     ------------------------------------------------------------ */
+  .anchor-offset {
+    scroll-margin-top: 0 !important;
+  }
+
+  /* Remove transitions/animations */
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Pub/timeline hover overrides (already covered above, safety) */
+  .pub-card:hover,
+  .timeline-item:hover .timeline-content,
+  .award-item:hover,
+  .tag:hover,
+  .hero-link:hover {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+}
