@@ -157,7 +157,7 @@ const PUBLICATIONS = [
   {
     id: 'C10', type: 'conference', year: 2026,
     title:   'Retrieval-Guided Federated Semi-Supervised Learning for Medical Image Segmentation',
-    authors: 'Par, H., Kim, S., Arsalane, W., An, S., & Park, S. H.',
+    authors: 'Par, H., Kim, S., Arsalane, W., An, S.†, & Park, S. H.†',
     venue:   'MICCAI',
     abbr:    'MICCAI',
     links:   [],
@@ -174,7 +174,7 @@ const PUBLICATIONS = [
   {
     id: 'C8', type: 'conference', year: 2025,
     title:   'Few-Shot Logical Anomaly Detection with Text-based Logics via Language-Image Contrastive Training',
-    authors: 'Lee, S., Kim, S., An, S., Park, S. H., & Lee, S.',
+    authors: 'Lee, S.*, Kim, S.*, An, S., Lee, S.†, & Park, S. H.†',
     venue:   'ACM SIGKDD',
     abbr:    'KDD',
     links:   [],
