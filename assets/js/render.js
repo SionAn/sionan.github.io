@@ -12,6 +12,11 @@ function hl(authors) {
     `<span class="pub-highlight">${HIGHLIGHT_AUTHOR}</span>`
   );
 }
+function formatSymbols(str) {
+  return str
+    .replace(/\*/g, '<sup style="color:var(--color-accent);font-weight:700;">*</sup>')
+    .replace(/†/g, '<sup style="color:var(--color-accent);font-weight:700;">†</sup>');
+}
 function el(tag, cls, html) {
   return `<${tag}${cls ? ` class="${cls}"` : ''}>${html}</${tag}>`;
 }
@@ -149,7 +154,7 @@ function renderPublications() {
           <div>
             ${pubBadge(p.type)}${abbrBadge}${noteBadge}
             <p class="pub-title">${p.title}</p>
-            <p class="pub-authors">${hl(p.authors)}</p>
+            <p class="pub-authors">${formatSymbols(hl(p.authors))}</p>
             <p class="pub-venue pub-meta">${p.venue} · ${p.year}</p>
             ${pubLinks(p.links)}
           </div>
@@ -160,7 +165,8 @@ function renderPublications() {
 
   const legend = `
     <p style="margin-top:1.5rem;font-size:0.78rem;color:var(--color-text-muted);font-family:var(--font-mono);">
-      * Co-first author &nbsp;&nbsp; † Co-corresponding author
+      <sup style="color:var(--color-accent);font-weight:700;">*</sup> Co-first author &nbsp;&nbsp;
+      <sup style="color:var(--color-accent);font-weight:700;">†</sup> Co-corresponding author
     </p>
   `;
 
