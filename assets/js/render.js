@@ -164,7 +164,7 @@ function renderPublications() {
   });
 
   const legend = `
-    <p style="margin-top:1.5rem;font-size:0.78rem;color:var(--color-text-muted);font-family:var(--font-mono);">
+    <p style="margin-top:0.5rem;font-size:0.78rem;color:var(--color-text-muted);font-family:var(--font-mono);">
       <sup style="color:var(--color-accent);font-weight:700;">*</sup> Co-first author &nbsp;&nbsp;
       <sup style="color:var(--color-accent);font-weight:700;">†</sup> Co-corresponding author
     </p>
@@ -172,9 +172,9 @@ function renderPublications() {
 
   document.getElementById('publications').innerHTML = `
     <h2 class="section-title">Publications</h2>
+    ${legend}
     ${filters}
     ${cards}
-    ${legend}
   `;
 
   // 필터 이벤트
