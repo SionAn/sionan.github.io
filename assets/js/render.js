@@ -165,8 +165,8 @@ function renderPublications() {
 
   const legend = `
     <p style="margin-top:0.5rem;font-size:0.78rem;color:var(--color-text-muted);font-family:var(--font-mono);">
-      <sup style="color:var(--color-accent);font-weight:700;">*</sup> Co-first author &nbsp;&nbsp;
-      <sup style="color:var(--color-accent);font-weight:700;">†</sup> Co-corresponding author
+      <sup style="color:var(--color-accent);font-weight:700;">*</sup> Co-first authors &nbsp;&nbsp;
+      <sup style="color:var(--color-accent);font-weight:700;">†</sup> Co-corresponding authors
     </p>
   `;
 
