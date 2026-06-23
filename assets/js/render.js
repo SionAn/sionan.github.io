@@ -158,10 +158,17 @@ function renderPublications() {
     });
   });
 
+  const legend = `
+    <p style="margin-top:1.5rem;font-size:0.78rem;color:var(--color-text-muted);font-family:var(--font-mono);">
+      * Co-first author &nbsp;&nbsp; † Co-corresponding author
+    </p>
+  `;
+
   document.getElementById('publications').innerHTML = `
     <h2 class="section-title">Publications</h2>
     ${filters}
     ${cards}
+    ${legend}
   `;
 
   // 필터 이벤트
